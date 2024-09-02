@@ -18,30 +18,24 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Filmes</a></li>
-                <li><a href="#">Séries</a></li>
+                <li><a href="./index.html" class="menu-link">Início</a></li>
+                <li><a href="./index.html" class="menu-link">Filmes</a></li>
+                <li><a href="#" class="menu-link">Séries</a></li>
             </ul>
         </nav>
         <div class="search-login">
-            <a href="#" class="search-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/>
-                    <line x1="16.4142" y1="16" x2="19.9142" y2="19.5" stroke="white" stroke-width="2"/>
-                </svg>
-                <input type="text" class="input_search">
-            </a>
+            <input type="text" id="input_search" placeholder="Buscar filmes...">
             <div class="login-buttons">
-                <a href="#">Entrar</a>
-                <a href="#">Cadastrar</a>
+                <a href="#" class="login-link">Entrar</a>
+                <a href="#" class="login-link">Cadastrar</a>
             </div>
         </div>
     </header>
     
     <main>
-        <section>
-            <h2>Filmes Populares</h2>
-            <div class="container">
+        <section class="container">
+            <h2 id="filmes-populares">Filmes Populares</h2>
+            <div>
                 <div class="cards"></div>
             </div>
         </section>

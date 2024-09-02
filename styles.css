@@ -44,6 +44,12 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+.menu-link:hover {
+    color: #530707;
+    transition: 0.3s ease;
+}
+
 .search-login {
     display: flex;
     justify-content: center;
@@ -53,6 +59,29 @@ nav ul li a {
     margin-left: 15px;
     color: #fff;
     text-decoration: none;
+}
+
+.login-link:hover {
+    color: #530707;
+    transition: 0.3s ease;
+}
+
+#input_search {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-right: 10px;
+}
+
+#input_search::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#input_search:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 h1{
